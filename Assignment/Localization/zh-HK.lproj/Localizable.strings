@@ -1,0 +1,11 @@
+"listViewTitle" = "Things to Deliver";
+"detailViewTitle" = "Delivery Details";
+"retryButtonTitle" = "Retry";
+"failMessage" = "Unable to fetch the data. Please try again";
+"noDataMessage" = "No more data found";
+"noNewDataMessage" = "No new data found";
+"localDataDeletionErrorMessage" = "Fail to delete local data";
+"noNetworkMessage" = "The Internet connection appears to be offline";
+"pullToRefreshText" = "Pull to refresh";
+"refreshing" = "Refreshing";
+"requestInProgress" = "The request already in progress. Please wait";
