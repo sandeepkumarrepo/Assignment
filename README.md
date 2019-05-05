@@ -28,7 +28,7 @@ To run the project :
     Apple link: https://developer.apple.com/documentation/swift/cocoa_design_patterns/using_key-value_observing_in_swift
 - View Model : This is a business logic layer between View and Model. This layer is doing data manipulation and taking the decision. It interacts with the DataManager layer to retrieve the data. This layer will notify the changes in data to the View layer using the KVO.
 - DataManager : This layer is in between ViewModel and Model. DataManager handles the business logic before handing over the data to ViewModel. This layer is doing the conversion of the NSManagedObject model to a service model which is used in the app.
-- Model : Models are used for data binding. Core Data model is for holding local DB data and service model is used for server data. Model is interacting with the data manager layer.
+- Model : Model store the data from server and local databse. Core Data model is for holding local DB data and service model is used for server data. Model is interacting with the data manager layer.
     1. CoreDataManager : This class interacts with database i.e CoreData. It performs the all database related operations and responds back to DataManager.
     2. APIManager: This class interacts remotely. It retrieves the data from the server and map into the model and returns back to DataManager.
 
